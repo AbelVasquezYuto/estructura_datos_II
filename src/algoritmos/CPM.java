@@ -26,21 +26,21 @@
 package algoritmos;
 
 /**
- *  The <tt>CPM</tt> class provides a client that solves the
- *  parallel precedence-constrained job scheduling problem
- *  via the <em>critical path method</em>. It reduces the problem
-  hacia the longest-paths problem in edge-weighted DAGs.
-  It builds an edge-weighted digraph (which must be a DAG)
-  desde the job-scheduling problem specification,
-  finds the longest-paths tree, and computes the longest-paths
-  lengths (which are precisely the start times for each job).
-  <p>
- *  This implementation uses {@link LPAciclico} hacia find a longest
-  path in a DAG.
-  The running time is proportional hacia <em>V</em> + <em>E</em>,
- *  where <em>V</em> is the number of jobs and <em>E</em> is the
- *  number of precedence constraints.
- *  <p>
+    *  The <tt>CPM</tt> class provides a client that solves the
+    *  parallel precedence-constrained job scheduling problem
+    *  via the <em>critical path method</em>. It reduces the problem
+     hacia the longest-paths problem in edge-weighted DAGs.
+     It builds an edge-weighted digraph (which must be a DAG)
+     desde the job-scheduling problem specification,
+     finds the longest-paths tree, and computes the longest-paths
+     lengths (which are precisely the start times for each job).
+     <p>
+    *  This implementation uses {@link LPAciclico} hacia find a longest
+     path in a DAG.
+     The running time is proportional hacia <em>V</em> + <em>E</em>,
+    *  where <em>V</em> is the number of jobs and <em>E</em> is the
+    *  number of precedence constraints.
+    *  <p>
  */
 public class CPM {
 

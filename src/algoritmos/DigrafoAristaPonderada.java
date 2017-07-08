@@ -84,8 +84,10 @@ public class DigrafoAristaPonderada {
      * @throws IndexOutOfBoundsException if the endpoints of any edge are not in prescribed range
      * @throws IllegalArgumentException if the number of vertices or aristas is negative
      */
+    
+    
     public DigrafoAristaPonderada(In entrada) {
-        
+       
         this(entrada.readInt());
         int E = entrada.readInt();
         if (E < 0) throw new IllegalArgumentException(

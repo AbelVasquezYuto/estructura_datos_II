@@ -80,6 +80,8 @@ public class Digrafo {
      * @throws IndexOutOfBoundsException if the endpoints of any edge are not in prescribed range
      * @throws IllegalArgumentException if the number of vertices or edges is negative
      */
+    
+    
     public Digrafo(In entrada) {
         try {
             this.V = entrada.readInt();
